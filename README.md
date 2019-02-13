@@ -1,10 +1,12 @@
 # Git Practice Assignment
 
 Homework Submission for CS 480: Agile Software Development
+
 Article Link: https://arxiv.org/pdf/1702.01715.pdf
 
 ## Interesting Features
-
 ### Real World Applicability
+The author of this paper is a software engineer who has been working at Google for over 10 years as of the time of publication. I found this article particularly intriguing to due serving as an observable application of the theoretical concepts that we study in school. Some principles were startling to see at first, but made sense later on following subsequent justification. For example, a vast majority of Google code occurs within a unified repository, with the exception of Chrome, Android, and other high-security pieces of code. This allows engineers within the company access code that may not be directly relevant to them, allowing them to easily learn from others and even run tests to ensure correctness. Furthermore, most of the code occurs at the head of the repository as opposed to the branches. This is done in order to easily identify integration problems and minimize the amount of merging work needed. The last piece of information that surprised me was the fact that there are frequent code rewrites. Every few years, most of the software at Google is completely rewritten, leading to enormous costs, but yields the benefit of adjusting technology to match the user's desires and expectations as well as maintaining their reputation of constantly working at the cutting edge and forefront of modern technological advancement.
 
 ### Efficient Internal Processes
+The processes in which code is written, reviewed, and approved at Google is extensive and intrinsically limits the potential for error. Google has a multitude of web-based code review tools, enabling reviews to view the author's code side-by-side with what existed prior in order to verify that the changes will be positive. These tools are linked with email so that communication between teams or even just peers will be simple and fast. All changes to the main source code repository must be reviewed by at least one other engineer, which adds a sense of teamwork to the company as you'll occasionally be held accountable for the work of another person, thus incentivizing you to care about the overall quality of a project as a whole, as opposed to just the part on which you worked. People are told to keep changes small to ease the review process, and unit testing is encouraged by all programmers, rather than specific quality assurance engineers as is the case in other companies.
